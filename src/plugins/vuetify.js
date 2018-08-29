@@ -1,0 +1,51 @@
+import Vue from 'vue';
+import {
+  Vuetify,
+  VApp,
+  VNavigationDrawer,
+  VFooter,
+  VList,
+  VBtn,
+  VIcon,
+  VGrid,
+  VToolbar,
+  transitions,
+  VCombobox,
+  VChip,
+  VCard,
+  VBottomNav,
+  VDivider,
+  VTextField,
+  VForm,
+} from 'vuetify';
+import 'vuetify/src/stylus/app.styl';
+
+Vue.use(Vuetify, {
+  components: {
+    VApp,
+    VNavigationDrawer,
+    VFooter,
+    VList,
+    VBtn,
+    VIcon,
+    VGrid,
+    VToolbar,
+    transitions,
+    VCombobox,
+    VChip,
+    VCard,
+    VBottomNav,
+    VDivider,
+    VTextField,
+    VForm,
+  },
+  theme: {
+    primary: '#046E89',
+    secondary: '#D8F4F2',
+    accent: '#82B1FF',
+    error: '#FF5252',
+    info: '#1AB1E5',
+    success: '#4CAF50',
+    warning: '#FFC107',
+  },
+});
